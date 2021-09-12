@@ -64,3 +64,11 @@ address a:visited {
 .intro {
     text-indent: 2em;
 } 
+
+#body-container {
+    width: 50%;
+}
+
+#social-buttons-container {
+    background-color: #204f8c;
+}
