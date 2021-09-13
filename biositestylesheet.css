@@ -1,0 +1,135 @@
+/* CSS rules to specify font families:
+font-family: 'Odibee Sans', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif; */
+
+html, body {
+    font-size: 16px;
+    background-color: #1D1C40;
+}
+
+p {
+    font-family: 'Roboto', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1 { 
+    font-family: 'Permanent Marker',  Verdana, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: .1em;
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', Verdana, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: .2em;
+    margin: 0;
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+a {
+    font-family: 'Roboto',  Verdana, Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F2D95C;
+}
+
+a:hover {
+    text-decoration: none;
+ 
+}
+
+a:visited {
+    color: #F2D95C;
+}
+
+.quote {
+    font-family: 'Permanent Marker', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+} 
+
+.main-container {
+    width: 100%;
+}
+
+.body-container {
+    background-color: #204F8C;
+    margin-top: 25px;
+}
+
+.top-container {
+    width: 100%;
+    min-height: 100px;
+}
+
+.social-container {
+    width: 10%;
+ }
+
+.middle-container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.screen-container {
+    background-color: #fff;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 25px;
+}
+
+.bottom-container {
+    width: 100%;
+    min-height: 10%;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 250px;
+}
+
+.left-buttons {
+    display: flex;
+    justify-content: center;
+    float: left;
+    min-width: 50%;
+ }
+
+.right-buttons {
+    display: flex;
+    position: static;
+    left: 50%;
+    min-width: 50%;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    padding: 10px;
+}
