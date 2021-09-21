@@ -181,39 +181,14 @@ a:visited {
 
 .button-container {
     margin-top: 45px;
-    width: 75%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-   
+    text-align: center;
 }
 
-
-#a-button {
-    background-color: #1A1E1E;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px;
-    border-style: solid;
-    border-color: #1A1E1E;   
-    text-align: center;
-    font-size: 2em;
-    color: #fff;
-    
-}
-
-#b-button {
-    background-color: #1A1E1E;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px;
-    border-style: solid;
-    border-color: #1A1E1E;   
-    text-align: center;
-    font-size: 2em;
-    color: #fff;
-    
+#buttons {
+    width: 75%;
 }
 
 .footer {
@@ -226,21 +201,6 @@ a:visited {
     margin-bottom: 50px;
 }
 
-.footer-links {
-    font-size: 1em;
-    color: #fff;
-    background-color: #1A1E1E;
-    border-radius: 5%;
-    border: 2px;
-    border-style: solid;
-    border-color: #1A1E1E;   
-    text-align: center;
-    padding: 10px;
-  }
-
-.footer-links:hover {
-    color: #ffd500;
-}
 
 #logo-text {
     text-align: center;
@@ -284,6 +244,27 @@ a:visited {
 
 .nav-link:hover {
     color: #ffd500; 
+}
+
+
+.footer-links {
+    font-size: 1em;
+    color: #fff;
+    background-color: #1A1E1E;
+    border-radius: 5%;
+    border: 2px;
+    border-style: solid;
+    border-color: #1A1E1E;   
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links:hover {
+    color: #ffd500;
+}
+
+.footer-links:visited {
+    color: #FFF;
 }
 
 /* ------------ Accordion Start -----------*/
