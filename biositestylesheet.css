@@ -56,7 +56,8 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    color: #204F8C;
+    color: #333;
+    font-size: 1em;
 }
 
 .landing-link:hover {
@@ -151,15 +152,6 @@ landing-link:visited {
     max-height: 100%;
     max-width: 100%;
     padding: 25px;
-}
-
-.landing-link {
-    color: #333;
-    font-size: 1em;
-}
-
-.landing-link:hover {
-    color: #ffd500; 
 }
 
 .bottom-container {
