@@ -217,9 +217,13 @@ landing-link:visited {
 }
 
 .nav-link {
+    font-family: 'Roboto',  Verdana, Arial, sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
     margin-right: auto;
     margin-left: auto;
-    font-size: .75em;
     color: #FFF;
     background-color: #1F2224;
     border-radius: 5%;
