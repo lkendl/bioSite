@@ -50,7 +50,7 @@ h3 {
 }
 
 
-a {
+.landing-link {
     font-family: 'Roboto',  Verdana, Arial, sans-serif;
     font-size: 1.25em;
     text-transform: uppercase;
@@ -59,12 +59,12 @@ a {
     color: #204F8C;
 }
 
-a:hover {
-    text-decoration: none;
+.landing-link:hover {
+    color: #ffd500;
 }
 
-a:visited {
-    color: #ffd500;
+landing-link:visited {
+    color: #fff;
 }
 .nav {
     color:#111;
