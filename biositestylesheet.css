@@ -97,10 +97,30 @@ landing-link:visited {
     margin-bottom: 20px;
 }
 
-#twitch-logo {
-    max-width: 90px;
+#call-to-action-twitch-container {
     float: right;
     margin-right: 15px;
+}
+
+#call-to-action-container {
+    float: left;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+#call-to-action {
+    font-family: 'Permanent Marker', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    color: #FFF;
+}
+
+#twitch-container {
+    float: right;
+}
+
+#twitch-logo {
+    max-width: 90px; 
 }
 
 .follow {
@@ -108,7 +128,6 @@ landing-link:visited {
     font-style: italic;
     font-size: .75em;
     color:#FFF;
- 
 }
 
 .top-bar {
@@ -152,6 +171,16 @@ landing-link:visited {
     max-height: 100%;
     max-width: 100%;
     padding: 25px;
+    padding-bottom: 50px;
+   
+}
+
+#home-msg {
+    font-family: 'Roboto',  Verdana, Arial, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    color: #333;
+    text-align: center;
 }
 
 .bottom-container {
@@ -238,6 +267,18 @@ landing-link:visited {
     color: #ffd500; 
 }
 
+#PK {
+    border: 1px;
+    border-color: #999;
+    border-style: solid;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 45px;
+    box-shadow: 2px 2px rgb(211, 211, 211);
+
+ }
+
 .footer {
     margin-right: auto;
     margin-left: auto;
@@ -299,8 +340,9 @@ ul.accordion label {
 }
       
 ul.accordion label:hover {
-    background-color: rgba( 255,255,255, .75);
+    background-color: #ffd500;
     cursor: pointer;	
+    transition: .3s;
 }
       
 ul.accordion li input ~ div {
