@@ -195,7 +195,7 @@ landing-link:visited {
     border-radius: 25px;
     border: 5px;
     border-style: solid;
-    border-color: #0290AF;
+    border-color: #FFF;
     width: 160px;
     text-align: center;
 }
@@ -220,7 +220,7 @@ landing-link:visited {
     text-transform: uppercase;
     font-weight: 900;
     text-decoration: none;
-    color: #0290AF; 
+    color: #FFF; 
     padding: 5px;   
 }
 
